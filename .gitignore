@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Datasets
+data/raw/*
+data/bronze/*
+data/silver/*
+data/gold/*
+
+# Model artifacts
+*.h5
+*.keras
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+.idea/
